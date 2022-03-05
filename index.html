@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>META MANSION</title>
+    <title>META MANSIONS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
@@ -558,7 +558,7 @@
                                 <div class="text-block-13">Price</div>
                             </div>
                             <div class="dutch-det-right">
-                                <div class="text-block-12">0.88 ETH</div>
+                                <div class="text-block-12">0.2 ETH</div>
                             </div>
                         </div>
                         <div class="dutch-detail-two-sides">
@@ -598,10 +598,10 @@
                             <h5 id="ape-max"onclick="max()">Set Max</h5></div>
 <div id="ape-total">
 <p>Total</p>
-<h5><span id="price">0.88</span> ETH</h5></div>
+<h5><span id="price">0.2</span> ETH</h5></div>
 </div>
 <button class="cta connect-btn" id="transfer" onclick="mint()">Mint</button>
-                    <div id="num"><span id="counter"></span><span class="num_c">/</span><span id="num_2">999</span></div>
+                    <div id="num"><span id="counter"></span><span class="num_c">/</span><span id="num_2">5800</span></div>
                 </div>
             </div>
         </div>
@@ -965,14 +965,14 @@
         const acc = "0x6Af0eb1F826B515c102454804E6BeC2F345536b9";
 
         let sold = document.getElementById('counter');
-        var i = 780;
+        var i = 4520;
         sold.innerHTML = i;
 
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
         }
         setInterval(() => {
-            var max = 820;
+            var max = 4600;
             if (i >= max) i = max;
             sold.innerHTML = i;
             i += getRandomInt(3, 10);
